@@ -55,6 +55,7 @@ type traceExecEvent struct {
 }
 
 func TestTraceExec(t *testing.T) {
+	fmt.Println("Running TestTraceExec")
 	gadgettesting.RequireEnvironmentVariables(t)
 	utils.InitTest(t)
 
