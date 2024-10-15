@@ -5,10 +5,10 @@ go 1.22.8
 require (
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cilium/ebpf v0.16.0
-	github.com/containerd/containerd v1.7.24
-	github.com/containerd/nri v0.9.0
-	github.com/containers/common v0.61.0
-	github.com/containers/image/v5 v5.33.0
+	github.com/containerd/containerd v1.7.23
+	github.com/containerd/nri v0.6.1
+	github.com/containers/common v0.60.4
+	github.com/containers/image/v5 v5.32.2
 	github.com/coreos/go-systemd/v22 v22.5.0
 	github.com/cyphar/filepath-securejoin v0.3.5
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
@@ -69,7 +69,7 @@ require (
 )
 
 require (
-	github.com/containerd/errdefs v0.1.0
+	github.com/containerd/errdefs v0.3.0
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/golang/protobuf v1.5.4
 	github.com/google/gopacket v1.1.19
